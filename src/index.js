@@ -5,7 +5,7 @@ let daysWeek =["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday",
 let day = daysWeek[currentDate.getDay()];
 let hour = currentDate.getHours();
 let minutes = currentDate.getMinutes();
-if (minutes > 10) {
+if (minutes > 9) {
 h2.innerHTML = `${day} ${hour}:${minutes}`;
 } else {
 h2.innerHTML = `${day} ${hour}:0${minutes}`;
