@@ -1,0 +1,27 @@
+
+.searcher{
+    margin-top: 20px;
+}
+.main-weather{
+    max-width: 200px;}
+.sunny{
+    max-width: 40px;
+}
+.cloudy{
+    max-width: 40px;
+}
+.week-weather{
+    padding-right: 300px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.selector{
+    font-size: 20px;
+}
+.temp-format{
+    font-size: 20px;
+    text-decoration: none;
+}
+.form-format{
+    display: inline;
+}
